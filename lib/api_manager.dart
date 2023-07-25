@@ -1,8 +1,6 @@
 //before let's add the http package
 import 'dart:convert';
-
-import 'package:http/http.dart';
-import 'package:soccer_tutorial/soccermodel.dart';
+import 'package:soccerstatus/soccermodel.dart';
 
 class SoccerApi {
   //now let's set our variables
@@ -46,3 +44,5 @@ class SoccerApi {
     }
   }
 }
+
+class Response {}
